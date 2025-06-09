@@ -8,9 +8,26 @@
     <!--組織ID organization ID-->
     <groupId>org.springframework.boot</groupId>
 　　<!--項目ID project ID-->
-    (organization ID and project ID is to location the repositories files)
     <artifactId>spring-boot-starter-parent</artifactId>
-		<!--バージョン号-->
+    (organization ID and project ID is to location the repositories files)
+    <!--バージョン号-->
     <version>3.5.0</version>	
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
+
+(dependency_list)
+<dependencies>
+	<dependency>
+	　(location of org.springframework.boot)
+	　<!--組織ID organization ID-->
+	　<groupId>org.springframework.boot</groupId>
+	　<!--項目ID project ID-->
+	　<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+
+	<dependency>
+	　<groupId>org.springframework.boot</groupId>
+	　<artifactId>spring-boot-devtools</artifactId>
+	　<scope>runtime</scope>
+	　<optional>true</optional>
+	</dependency>
